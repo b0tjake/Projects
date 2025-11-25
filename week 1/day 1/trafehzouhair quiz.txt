@@ -1,0 +1,10 @@
+1-B) C-Sharp
+2-● C) Semicolon (;)
+3-● B) string
+4-● C) 15
+5-● B) ==
+6-● C) Hi Hi Hi
+7-● C) static
+8-● C) 2ndPlace
+9-● B) A blueprint for creating objects
+10-● B) Unity
