@@ -156,7 +156,7 @@ foreach(var item in dict){
 //     Console.WriteLine($"The size of the shirt is {size} and the text is '{text}'.");
 // }
 
-// MakeShirt("");
+// MakeShirt();
 // MakeShirt("medium");
 // MakeShirt("xxl" , "arthur morgan was here");
 
