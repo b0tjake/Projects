@@ -1,0 +1,15 @@
+C:\Users\mouad\Desktop\Project\week 1\day 4\atm_machin\bin\Debug\net10.0\atm_machin.exe
+C:\Users\mouad\Desktop\Project\week 1\day 4\atm_machin\bin\Debug\net10.0\atm_machin.deps.json
+C:\Users\mouad\Desktop\Project\week 1\day 4\atm_machin\bin\Debug\net10.0\atm_machin.runtimeconfig.json
+C:\Users\mouad\Desktop\Project\week 1\day 4\atm_machin\bin\Debug\net10.0\atm_machin.dll
+C:\Users\mouad\Desktop\Project\week 1\day 4\atm_machin\bin\Debug\net10.0\atm_machin.pdb
+C:\Users\mouad\Desktop\Project\week 1\day 4\atm_machin\obj\Debug\net10.0\atm_machin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mouad\Desktop\Project\week 1\day 4\atm_machin\obj\Debug\net10.0\atm_machin.AssemblyInfoInputs.cache
+C:\Users\mouad\Desktop\Project\week 1\day 4\atm_machin\obj\Debug\net10.0\atm_machin.AssemblyInfo.cs
+C:\Users\mouad\Desktop\Project\week 1\day 4\atm_machin\obj\Debug\net10.0\atm_machin.csproj.CoreCompileInputs.cache
+C:\Users\mouad\Desktop\Project\week 1\day 4\atm_machin\obj\Debug\net10.0\atm_machin.sourcelink.json
+C:\Users\mouad\Desktop\Project\week 1\day 4\atm_machin\obj\Debug\net10.0\atm_machin.dll
+C:\Users\mouad\Desktop\Project\week 1\day 4\atm_machin\obj\Debug\net10.0\refint\atm_machin.dll
+C:\Users\mouad\Desktop\Project\week 1\day 4\atm_machin\obj\Debug\net10.0\atm_machin.pdb
+C:\Users\mouad\Desktop\Project\week 1\day 4\atm_machin\obj\Debug\net10.0\atm_machin.genruntimeconfig.cache
+C:\Users\mouad\Desktop\Project\week 1\day 4\atm_machin\obj\Debug\net10.0\ref\atm_machin.dll
