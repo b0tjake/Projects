@@ -1,7 +1,7 @@
 ﻿
 using System;
 
-class Transactions
+public class Transactions
 {
     public int id;
     public string title;
