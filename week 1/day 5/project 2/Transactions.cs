@@ -46,5 +46,20 @@ public class Program
             Console.WriteLine("transaction not found");
         }
     }
-    
+    static void deleteTransaction()
+    {
+        Console.WriteLine("enter the id of the transaction u want to delete");
+        var id = int.Parse(Console.ReadLine());
+        var tr = transactions.Find(t => t.id == id);
+        if(tr != null)
+        {
+            transactions.Remove(tr);
+            Console.WriteLine("transaction deleted");
+        }
+        else
+        {
+            Console.WriteLine("transaction not found");
+        }
+    }
+
 }
