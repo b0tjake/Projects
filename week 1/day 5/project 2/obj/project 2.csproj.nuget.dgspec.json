@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mouad\\Desktop\\Project\\week 1\\day 5\\project 1\\day 5.csproj": {}
+    "C:\\Users\\mouad\\Desktop\\Project\\week 1\\day 5\\project 2\\project 2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mouad\\Desktop\\Project\\week 1\\day 5\\project 1\\day 5.csproj": {
+    "C:\\Users\\mouad\\Desktop\\Project\\week 1\\day 5\\project 2\\project 2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mouad\\Desktop\\Project\\week 1\\day 5\\project 1\\day 5.csproj",
-        "projectName": "day 5",
-        "projectPath": "C:\\Users\\mouad\\Desktop\\Project\\week 1\\day 5\\project 1\\day 5.csproj",
+        "projectUniqueName": "C:\\Users\\mouad\\Desktop\\Project\\week 1\\day 5\\project 2\\project 2.csproj",
+        "projectName": "project 2",
+        "projectPath": "C:\\Users\\mouad\\Desktop\\Project\\week 1\\day 5\\project 2\\project 2.csproj",
         "packagesPath": "C:\\Users\\mouad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mouad\\Desktop\\Project\\week 1\\day 5\\project 1\\obj\\",
+        "outputPath": "C:\\Users\\mouad\\Desktop\\Project\\week 1\\day 5\\project 2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mouad\\AppData\\Roaming\\NuGet\\NuGet.Config"
