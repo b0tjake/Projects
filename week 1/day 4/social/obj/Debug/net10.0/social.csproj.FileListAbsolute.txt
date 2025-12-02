@@ -1,0 +1,15 @@
+C:\Users\mouad\Desktop\Project\week 1\day 4\social\bin\Debug\net10.0\social.exe
+C:\Users\mouad\Desktop\Project\week 1\day 4\social\bin\Debug\net10.0\social.deps.json
+C:\Users\mouad\Desktop\Project\week 1\day 4\social\bin\Debug\net10.0\social.runtimeconfig.json
+C:\Users\mouad\Desktop\Project\week 1\day 4\social\bin\Debug\net10.0\social.dll
+C:\Users\mouad\Desktop\Project\week 1\day 4\social\bin\Debug\net10.0\social.pdb
+C:\Users\mouad\Desktop\Project\week 1\day 4\social\obj\Debug\net10.0\social.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mouad\Desktop\Project\week 1\day 4\social\obj\Debug\net10.0\social.AssemblyInfoInputs.cache
+C:\Users\mouad\Desktop\Project\week 1\day 4\social\obj\Debug\net10.0\social.AssemblyInfo.cs
+C:\Users\mouad\Desktop\Project\week 1\day 4\social\obj\Debug\net10.0\social.csproj.CoreCompileInputs.cache
+C:\Users\mouad\Desktop\Project\week 1\day 4\social\obj\Debug\net10.0\social.sourcelink.json
+C:\Users\mouad\Desktop\Project\week 1\day 4\social\obj\Debug\net10.0\social.dll
+C:\Users\mouad\Desktop\Project\week 1\day 4\social\obj\Debug\net10.0\refint\social.dll
+C:\Users\mouad\Desktop\Project\week 1\day 4\social\obj\Debug\net10.0\social.pdb
+C:\Users\mouad\Desktop\Project\week 1\day 4\social\obj\Debug\net10.0\social.genruntimeconfig.cache
+C:\Users\mouad\Desktop\Project\week 1\day 4\social\obj\Debug\net10.0\ref\social.dll
