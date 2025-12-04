@@ -61,13 +61,14 @@ public class HelloWorld
 }
 //exercice 6
 
+using System;
 public class HelloWorld
 {
-    public static void Main(string[] args)
-    {
-         static void SayHello(string name){
+        public static void SayHello(string name){
             Console.WriteLine("hello "+ name);
         }
+   public static void Main(string[] args)
+    {
         SayHello("charaf");
         SayHello("asaad");
         SayHello("karim");
