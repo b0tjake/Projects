@@ -1,0 +1,3 @@
+simple : mario health system 
+complicated : red dead redemption 2 healing systen (if player eats x his health will get restored to y if he drinks x his helth will restore to y and get drunk ...) 
+complex : marvel spiderman playing system

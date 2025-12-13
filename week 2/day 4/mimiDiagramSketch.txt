@@ -1,0 +1,5 @@
+special attack bare: cuphead
+
+source : damage the bosses
+stock : playing cards 
+sink : special attack with high damage

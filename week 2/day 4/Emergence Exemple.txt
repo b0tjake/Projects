@@ -1,0 +1,3 @@
+hollow knight:
+behavior : speedrunners use like superdash or walljump to move through walls or skip large section on the map
+system : movement system

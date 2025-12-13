@@ -1,0 +1,5 @@
+cobblestone -> furnace
+wood -> stairs
+iron -> armour
+sticks -> ladder
+(minecraft
