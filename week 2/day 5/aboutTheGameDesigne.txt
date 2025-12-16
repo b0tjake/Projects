@@ -1,0 +1,19 @@
+Goal :
+Safely cross as many streets as possible witout getting hit by cars
+Rules: 
+Cars move fast or slow , traffic lights change , one hit kills you.
+core loop:
+Observ the traffics -- move forward or wait -- score increases
+-----------------------------------------------------------------
+feedback: 
+if the player successfuly crossed some streets that has some crazy cars ( like buggati ferrari ..) he gets x3 score multiplication
+
+-----------------------------------------------------------------
+SCAMPER:
+Substitute cars with bikes animals or robots
+Combine street crossing with time pressure or collecting items
+Adapt ideas from Frogger moving platforms like buses you can stand on
+Modify speed streets get narrower. cars faster.
+Use the game as a road safety learning tool for the kids
+Eliminate traffic lights -> player must rely only on sound and sight
+Instead of crossing the street, you control the traffic and kill people who're trying to cross
