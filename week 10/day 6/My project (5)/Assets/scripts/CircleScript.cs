@@ -7,7 +7,16 @@ public class CircleScript : MonoBehaviour
     [SerializeField] private float playerSpeed = 5f;
     [SerializeField] private float jumpForce = 5f;
     [SerializeField] private bool isGrounded = false;
-    private bool hasStartedMoving = false; // Tracks the first move
+    private bool hasStartedMoving = false;
+    private bool hasWon = false; 
+    private bool isControlEnabled = true;
+
+    [Header("Respawn Settings")]
+    private Vector2 startPosition; // Stores the initial spawn point
+
+    [Header("Audio Settings")]
+    public AudioSource audioSource;
+    public AudioClip winSound;
 
     public Rigidbody2D rb;
     public TextMeshProUGUI coinText; 
@@ -18,19 +27,23 @@ public class CircleScript : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        
+        // Save the position where the penguin starts the level
+        startPosition = transform.position; 
     }
 
     void Update()
     {
+        if (!isControlEnabled) return;
+
         float horizontalInput = Input.GetAxis("Horizontal");
         rb.linearVelocity = new Vector2(horizontalInput * playerSpeed, rb.linearVelocity.y);
 
         bool isMoving = Mathf.Abs(horizontalInput) > 0.1f;
 
-        // Check for the very first movement
         if (isMoving && !hasStartedMoving)
         {
-            anim.SetTrigger("firstMove"); // Trigger the hands-up animation
+            anim.SetTrigger("firstMove");
             hasStartedMoving = true;
         }
 
@@ -41,20 +54,43 @@ public class CircleScript : MonoBehaviour
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
 
-        // Sprite Flipping
         if (horizontalInput != 0)
         {
             transform.localScale = new Vector3(Mathf.Sign(horizontalInput), 1, 1);
         }
+
+        CheckWinCondition();
     }
 
-    // THIS DETECTS THE COIN PICKUP
+    void CheckWinCondition()
+    {
+        if (!hasWon && transform.position.x >= 126.41f && transform.position.y >= 13.5f && coinCount == 7)
+        {
+            WinGame();
+        }
+    }
+
+    void WinGame()
+    {
+        hasWon = true;
+        isControlEnabled = false; 
+        rb.linearVelocity = Vector2.zero; 
+        
+        if (audioSource != null && winSound != null)
+        {
+            audioSource.PlayOneShot(winSound);
+        }
+
+        anim.SetTrigger("win"); 
+        Debug.Log("You Win!");
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Coin"))
         {
-                coinCount++; // 3. Increase the number
-                UpdateUI();  // 4. Update the screen            
+            coinCount++;
+            UpdateUI();            
             Destroy(other.gameObject); 
         }
         if (other.gameObject.CompareTag("Trap"))
@@ -62,6 +98,7 @@ public class CircleScript : MonoBehaviour
             Die();
         }
     }
+
     void UpdateUI()
     {
         coinText.text = "Coins: " + coinCount;
@@ -69,22 +106,27 @@ public class CircleScript : MonoBehaviour
 
     public void Die()
     {
-        Debug.Log("Game Over!");
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        Debug.Log("Respawning...");
+        
+        // 1. Move the player back to the start
+        transform.position = startPosition;
+        
+        // 2. Stop any falling/moving momentum
+        rb.linearVelocity = Vector2.zero;
+
+        // 3. OPTIONAL: Reset progress
+        
+        // Note: If you want coins to reappear, you would need a more 
+        // complex system to "respawn" the destroyed coin objects.
     }
+
     public void OnCollisionEnter2D(Collision2D coll)
     {
-        if (coll.gameObject.CompareTag("Ground"))
-        {
-            isGrounded = true;
-        }
+        if (coll.gameObject.CompareTag("Ground")) isGrounded = true;
     }
 
     public void OnCollisionExit2D(Collision2D coll)
     {
-        if (coll.gameObject.CompareTag("Ground"))
-        {
-            isGrounded = false;
-        }
+        if (coll.gameObject.CompareTag("Ground")) isGrounded = false;
     }
 }
