@@ -11,6 +11,9 @@ public class CircleScript : MonoBehaviour
     private bool hasWon = false; 
     private bool isControlEnabled = true;
 
+    [Header("Win Menu Setup")]
+public GameObject winMenu;
+
     [Header("Respawn Settings")]
     private Vector2 startPosition; // Stores the initial spawn point
 
@@ -70,20 +73,38 @@ public class CircleScript : MonoBehaviour
         }
     }
 
-    void WinGame()
-    {
-        hasWon = true;
-        isControlEnabled = false; 
-        rb.linearVelocity = Vector2.zero; 
-        
-        if (audioSource != null && winSound != null)
-        {
-            audioSource.PlayOneShot(winSound);
-        }
+void WinGame()
+{
+    if (hasWon) return; 
 
-        anim.SetTrigger("win"); 
-        Debug.Log("You Win!");
+    hasWon = true;
+    isControlEnabled = false; 
+    rb.linearVelocity = Vector2.zero; 
+    
+    if (audioSource != null && winSound != null)
+    {
+        audioSource.PlayOneShot(winSound);
     }
+
+    // Start the animation
+    anim.SetTrigger("win"); 
+    Debug.Log("You Win! Waiting for animation...");
+
+    // Start the delay timer
+    StartCoroutine(WaitAndShowMenu());
+}
+private System.Collections.IEnumerator WaitAndShowMenu()
+{
+    // Wait for the duration you set (2 seconds)
+    yield return new WaitForSeconds(2f);
+
+    // Now show the menu and pause the game
+    if (winMenu != null)
+    {
+        winMenu.SetActive(true);
+        Time.timeScale = 0f; 
+    }
+}
 
     private void OnTriggerEnter2D(Collider2D other)
     {
