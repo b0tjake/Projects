@@ -1,0 +1,72 @@
+1-
+A 2d game (endless runner) 
+just a small corp jumps between floating platforms while he avoids the obstacles and collect the energy cells
+
+2- (the diagramme is gonan be on another .png file with this folder)
+
+3- phases description
+
+pre production:
+the pre production focuses on planning the game before developpement starts in this phase the team defines the vision
+and make a short "gdd" next to creating a simple prototype to test the main mechanics all of that is to confirm that the game 
+is FUN.
+
+Production : 
+the production phase is the game developping and building the core systems like movements obstacles ... creating the character...
+
+post production:
+this phase focuses on test the game for bugs and improve performance and pilishes visuals and audio, after this the game new is ready to
+be published on a platform (beta-gold)
+
+                             -------------------------------------------------
+TEAM ROLES MAPPING:
+
+Roles and Responsibilities:
+Game Designer -> create the game idea, defines mechanics, make the GDD, own the game vision
+programmer -> develop the gameplay system sucj as movements obtacles score ...
+game atist -> designe the world(bg- platforms- ...) designs the character and game UI
+audio designer -> creates sound effects for the game mechanics (along with the bg and the main game theme)
+QA testers -> tests the game for bugs, balance issue, controle preference and REPORT ISSUE TO THE TEAM
+producer -> organizes tasks and track progress of the dev and the art and ...
+
+-->diagramm gonna be in a .png file
+
+                             -------------------------------------------------
+Rapid Prototyping Exercice
+chosen mechanic : jump between platforms
+prototype: a circle player object - platforms spawning ahead - jump with space - game ends if player falls
+FeedBack : the jump feels a bit sucks and slow 
+Reflection : the prototype helped to confirm that the core mechanic works but the jump speed need an adjustment to feel smoother and more 
+enjoyable
+the next step would be to tweak the jump force.
+
+
+                             -------------------------------------------------
+GDD
+
+Title :
+sky hoper
+
+Genre : 
+2d endless runner / platformer
+
+core gameplay loop:
+player jumps between platforms
+avoid obstacles
+collect cells
+score increases 
+game speed up with time
+
+target audience :
+casual players aged 10-30 who enhoy simple mobile games
+
+key mechanics : 
+One button jump control
+endless platform generation
+increasing difficulty over time
+score baed on survival time 
+
+art style:
+simple, colorful, pixel art
+rounded shapes and soft lighting
+clean minimal UI
