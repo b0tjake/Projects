@@ -1,0 +1,10 @@
+Game pillars:
+Fast paced : The game should feel quick and energetic keeping the player constantly engaged
+
+Challenging : The player must focus and react quickly as the difficulty increases
+
+Satisfying : Each successful jump and collected item should feel rewarding with clear visual and audio feedback
+
+Non-Goal:
+
+No complicated controls : The game should stay simple and intuitive using only one main action "jump"

@@ -1,0 +1,8 @@
+fairness tool : 
+tool : short grace period after leaving a platform
+how it helps begginers -> it gives the player a small window to still jump even if they press the button
+slightly after steeping off a platform
+
+two turning knobs :
+1. jumping force : increasing it shoyld make the jumps feel more powerful and easier and clear gaps
+2. platform distance : reducing the gap between platforms should make the early game easier and more begginer friendly

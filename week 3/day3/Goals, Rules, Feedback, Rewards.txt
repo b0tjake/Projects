@@ -1,0 +1,23 @@
+Core Structure
+
+Goal:
+Survive as long as possible while jumping between platforms and collecting energy cells.
+
+Rule 1:
+If the player falls off a platform, the game ends.
+
+Rule 2:
+The game speed gradually increases over time.
+
+Feedback
+
+Success Feedback:
+A bright flash effect and a cheerful sound play when the player collects an energy cell or lands a perfect jump.
+
+Failure Feedback:
+A short crash animation and a low “fail” sound play when the player falls, followed by the game over screen.
+
+Cosmetic Reward
+
+Reward:
+Unlock new robot skins (colors or simple outfits).

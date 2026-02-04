@@ -1,0 +1,11 @@
+One-line Game Idea
+player jumps between floating platforms to survive as long as possible
+
+Core Elements
+goal : stay alive as long as possible while collecting cells to increase score
+Rule 1 : if the player falls off the platform the game ends
+Rule 2 : the game speed increases over time that makes the jump harder
+feedback: each successful jump or collectedd energy cell plays a sound and increase the score
+
+change rule: Instead of the game speeding up over time platforms become smaller
+Predicted Experience : The game becomes more skill based and focuses on accuracy instead of reaction speed

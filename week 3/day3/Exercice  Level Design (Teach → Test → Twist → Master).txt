@@ -1,0 +1,47 @@
+Room 1 –> Teach
+
+Layout:
+A straight path of large disappearing platforms with slow fade timers. No enemies or hazards.
+
+Purpose:
+Introduce the mechanic safely so the player understands that platforms wont stay forever.
+
+Checkpoint:
+At the end of the room.
+Reason: Saves time by avoiding repetition of the tutorial section.
+
+Room 2 –> Test
+
+Layout:
+Platforms disappeaer faster, and small gaps are introduced. The player must keeps moving to avoid falling.
+
+Purpose:
+Test the player's understanding of timing and movement.
+
+Checkpoint:
+Midway through the room.
+Reason: Reduces frustration if the player fails while learning the timing.
+
+Room 3 –> Twist
+
+Layout:
+Disappearing platforms mixed with moving platforms. Some platforms move horizontally while fading out.
+
+Purpose:
+Combine mechanics to create a more challenging and dynamic experience.
+
+Checkpoint:
+At the start of the room.
+Reason: Prevents the player from replaying the earlier, easier rooms after each failure.
+
+Room 4 –> Master
+
+Layout:
+A fast-paced sequence of small disappearing and moving platforms with narrow gaps.
+
+Purpose:
+Challenge the player to use everything learned in previous rooms.
+
+Checkpoint:
+None inside the room, only after completion.
+Reason: Maintains tension and makes the final challenge feel rewarding when completed.

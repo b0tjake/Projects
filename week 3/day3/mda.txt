@@ -1,0 +1,14 @@
+Three Mechanics:
+1. Jumping between platforms
+Feeling: Control and satisfaction -> the player feels skillful and in command when landing successful jumps
+
+2. Collecting energy cells
+Feeling: Reward and motivation —> picking up items gives a sense of progress and achievement
+
+3. Increasing game speed over time
+Feeling: Tension and excitement —> the rising pace creates pressure and keeps the experience thrilling
+
+
+Removing One Mechanic
+Removed Mechanic -> Increasing game speed over time
+The game would feel calmer and more predictable Without the rising tension it becomes more relaxed and less exciting, focusing mainly on steady platforming rather than adrenaline and urgency

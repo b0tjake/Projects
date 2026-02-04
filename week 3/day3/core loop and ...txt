@@ -1,0 +1,18 @@
+Core gameplay loop :
+Do jumps between platforms and collect energy cells
+-> Get points and temporary boosts
+-> Unlock and Prepare faster speeds or special platform types
+-> Repeat
+
+Step Progression
+1. Teach
+Introduce slow moving platforms in a safe area so the player learns how they move and how to time jumps.
+
+2. Test
+Place moving platforms over small gaps where the player must time their jump correctly to continue.
+
+3. Twist
+Combine moving platforms with obstacles or faster speeds, forcing the player to react more quickly.
+
+4. Master
+Create sections with multiple moving platforms at different speeds and directions, requiring precise timing and full understanding of the mechanic.

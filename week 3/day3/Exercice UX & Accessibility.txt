@@ -1,0 +1,13 @@
+Accessibility Features
+
+1. Adjustable Game Speed 
+Where it appears: In the Pause Menu and Settings Menu before starting the game.
+Purpose: Allows players to slow down the game if they have slower reaction times or are still learning the mechanics.
+
+2. High-Contrast Mode
+Where it appears: In the Settings Menu, with a toggle option.
+Purpose: Changes platform, player, and background colors to strong, contrasting tones to help players with visual impairments clearly see important elements.
+
+Helpful In Game Prompt
+
+Tap or press SPACE to jump. Time your jump before the platform disappears
