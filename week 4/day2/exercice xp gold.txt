@@ -1,0 +1,22 @@
+section 1:
+1. The 1983 Crash and Precedents The 1983 crash resulted in the gatekeeper approach, with console manufacturers dictating the quality of all software produced.
+ This resulted in high licensing costs, which ultimately led to the indie digital boom of the 2000s. Furthermore, the fear of another market flood resulted in the high stakes release windows that cause crunch today.
+2. Desktop vs. Living Room PC games focused on complex interfaces and depth because the mouse allowed for precise clicking and management. Consoles focused on immediate action and physical flow due to the limited buttons on a gamepad.
+ This split created a legacy where PC games became synonymous with deep strategy while consoles defined the cinematic action experience.
+
+Section 2:
+3.Rogue-lite: Combines permanent death with meta-progression. It creates a loop where failure feels like a step forward, something neither arcade games nor traditional RPGs achieved alone.
+
+Metroidvania: Blends platforming with exploration gated by abilities. It turns the world map into a puzzle that the player "unlocks" through character growth.
+
+4. Definition vs. Experience Mechanics are the objective rules, like shooting or jumping, which provide a clear label for a game. However
+genres like Survival Horror or Immersive Sims are defined by how a player feels—vulnerable or empowered—regardless of the specific buttons they press.
+ Narrative games prove that the emotional journey can be more defining than the gameplay loop itself.
+
+Section 3 : 
+
+5. The Feedback Loop The genre of Battle Royale began as mods created by communities. It gained popularity through streaming.
+ The developers opted for the Free-to-Play model in order to maintain the large player base. They did this by selling cosmetics in order to support the updates necessary to maintain player engagement.
+
+6. The Next Pillar A hypothetical game, Living World, would be created using AI to create a Generative Immersive Sim. It would replace scripted conversations between NPCs by having them think and respond to voice commands by the player using cloud computing.
+ This would change the experience of gaming from following a set path to experiencing a unique reality.
