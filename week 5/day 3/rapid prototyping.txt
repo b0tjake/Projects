@@ -1,0 +1,37 @@
+core gameplay loop
+
+Jump to platform -> Hear success sound & see score increase -> Gain points and energy -> Jump to the next platform
+----------------------------------------------------
+Player understood jumping.
+
+Confused about how far they could jump.
+
+Felt the gaps were random and unfair.
+
+				THE FIX
+After adding a fixed jump range rule, gameplay felt clearer.
+
+Player said it was more skill-based and enjoyable.
+
+
+-------------------------------------------------------------
+Questions & Answers
+
+Main Verb:
+Jump
+
+Win Condition:
+Reach a target score or break your previous score.
+
+Lose Condition:
+Miss a platform and fall.
+
+Biggest Issue Discovered:
+Players were confused about how far they could jump.
+
+Fix Applied:
+Added a fixed jump range rule (player can only jump up to 2 spaces).
+------------------------------------------------------------------------------------------------------------------------------------
+
+PART 2 II
+------------------------------------------------------------------------------------------------------------------------------------
