@@ -35,3 +35,12 @@ Added a fixed jump range rule (player can only jump up to 2 spaces).
 
 PART 2 II
 ------------------------------------------------------------------------------------------------------------------------------------
+
+1- The starting area with a large, flat platform helped players learn the movement and jumping controls without pressure.
+ The gradual increase in platform height and distance made the difficulty feel natural and allowed players to build confidence before harder sections.
+
+2- The starting area with a large, flat platform helped players learn the movement and jumping controls without pressure.
+ The gradual increase in platform height and distance made the difficulty feel natural and allowed players to build confidence before harder sections.
+
+3- Players said the early jumps were confusing and too difficult,
+ so the first few platforms were moved closer together and aligned at similar heights to make the introduction clearer and less frustrating.
