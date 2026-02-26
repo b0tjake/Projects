@@ -1,0 +1,67 @@
+Exercise 1 
+1- we gonna use RACI natrix
+
+                    	Designer               Developer          Artist              Producer
+Player Controller	A/R (Feel/Specs)       C (Physics)	  I (Animations)       I
+Asset Pipeline		I	               A/R (Integration   R (Creation)	       C (Deadlines)
+UI/UX Menu		R (Wireframes)	       C (Logic)	  A/R (Visuals)	       I
+
+Key Bottleneck: The Artist is a "Single Point of Failure." If Asset Creation stops, the Developer cannot perform Integration.
+
+multi-layered communication system:
+
+Layer 1: Sync (The Pulse): Daily 15-minute standing meeting. Strictly: Done, Doing, Blocked.
+
+Layer 2: Async (The Record): All design decisions must be logged in a Decision Log . If it isn't written down, it didn't happen.
+
+Layer 3: Emergency (The Flare): A dedicated "Blocker" channel in Slack/Discord. Tagging a Lead here means work has stopped.
+
+
+
+Risk Mitigation Plan
+
+Failure: A Lead is unavailable for a critical decision.
+
+Mitigation: The 24 Hour Rule -> If a blocker isnt addressed in 24 hours => the sub-team proceeds with the most reversible option to maintain momentum.
+
+
+							Exercice 2
+Tiered Feedback Framework : 
+
+Peer-to-Peer: Informal, technical, and immediate. focus on "how?"
+
+Cross-Discipline : Artist to Dev, focus on the impact (FOR EX, "This texture size slows down my build time").
+
+Lead-to-Team : High-level alignment. focus on "goal" (FOR EX, "This mechanic doesn't fit the 'Horror' theme").
+
+
+Feedback Examples
+
+on the gameplay mechanics => The jump height makes the level feel small. Can we reduce it by 15%?
+
+Technical Implementation: The current script calls Update funcrtion every frame, causing lag . isnt it better ti move this to an Event-based system ."
+
+							Exercice 3
+
+stress factors -> Technical - Deadline - Interpersonal - Personal
+
+solutions 
+Technical => Localized testing - Peer-coding sessions - Temporary Feature Freeze.
+Deadline => Task Sandboxing - Re-prioritizing the MVP - Cutting non-essential polish.
+Interpersonal => 1-on-1 vent sessions - Conflict mediation - Role re-alignment.
+Personal => Mandatory the {Off-grid time} - Flexible core hours - Mental health check-ins.
+
+Critical Conflict: The Late Asset Delivery(Again hh)
+Conflict Type: Process & Interpersonal.
+
+Resolution Strategy : 
+
+Neutral Ground: Meet without screens.
+Technical Spec: The Dev defines the minimum needed (FOR EX, Just the .FBX file, no textures).
+Deadline Buffer: The Artist agrees to a Rough delivery 48 hours before the Final delivery.
+
+Leadership Approach
+
+Protect the team from outside pressure so they can focus
+Clean up administrative tasks so the creators can create.
+During break no project talk 

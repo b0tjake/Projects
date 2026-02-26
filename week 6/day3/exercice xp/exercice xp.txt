@@ -1,0 +1,69 @@
+Producer : Timeline management, removing blockers and obstacles and cross-team communication.
+Designer : Gameplay mechanics UI/UX flow and balancing documentation.
+Developer : Core system coding and bug fixing and implementation of assets.
+Artist : Visual asset creation (2D/3D)/assets, UI elements, and aesthetic consistency.
+
+----------------------------------------------------------------------------------------------------
+
+Communication Infrastructure
+
+Discord : Day-to-day coordination and quick questions.
+Jira : Centralized documentation and task tracking.
+Email: Formal updates for external stakeholders.
+-----------------------------------------------------------------------------------------------------
+The Communication Plan
+
+Daily 15min Stand-up : Sync on? What did I do? What will I do? What is blocking me?
+
+Weekly 1h Sprint Review : Demo the current build and adjust the roadmap.
+
+Documentation "Pulse": End-of-day updates to the task board to ensure clarity for the next morning.
+
+
+===========================
+Exercise 2: Feedback & Iteration
+===========================
+Observation: State the specific behavior or feature.
+
+Impact: Explain how this affects the player or the project.
+
+Suggestion: Offer a path forward.
+
+I observed that the character takes 0.5 seconds to start moving after the input.
+The impact is that the controls feel 'mushy' and unresponsive during combat.
+I suggest we remove the startup animation frames to make the movement instantaneous.
+
+Separate Identity from Output: Remind the team that {The code is not the coder}. We are critiquing the work, not the person.
+The "Yes, And" Approach: Instead of shutting down ideas, build on them to find a middle ground.
+Scheduled Feedback Loops: Feedback shouldn't be a surprise; it should happen during designated review windows.
+
+
+===================================
+exercice 3
+===================================
+main sources of stress :
+Ambiguous Ownership - Scope Creep - Communication Overload
+
+Ambiguous Ownership => {
+RACI Matrix: Clearly define who is Responsible, Accountable, Consulted, and Informed for every task.
+Visual Task Board: Use a Kanban board (Jira/Trello) so everyone sees "Who is doing What" in real-time.
+}
+
+Scope Creep
+The "Kill List": Identify "nice-to-have" features early and cut them the moment a milestone is threatened.
+Time-Boxing: Limit specific tasks (e.g., polishing a menu) to a strict 4-hour window to prevent over-working.
+}
+
+Communication Overload => {
+Deep Work Blocks: Schedule 3-hour "No-Meeting" windows daily to allow for flow state.
+Communication Hierarchy: Move non-urgent "FYIs" to documentation rather than interrupting via chat.
+}
+conflict : the late delivery standoff
+
+The Developer expresses frustration during a meeting, claiming they can’t finish the prototype because the Artist is "lazy."
+The Artist fires back that the Developer's technical requirements are too confusing and changing constantly.
+
+Conflict Type: Process Conflict
+Resolution steps : Define the Bottleneck - Establish "Minimum Viable Assets" - Formalize the Hand-off - The "Early Warning" Rule
+
+Leadership Behavior: The Process Architect

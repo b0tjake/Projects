@@ -1,0 +1,25 @@
+Communication Audit
+failur "siloed implementation"  - whyIsThisAProblem "The designer pushing a feature without a sync creates hidden work and technical debt/bugs." - immediateImprovement "Mandatory Peer-Review: No feature is merged into the main build without a 5-minute technical sign-off from a developer."
+==  "Opaque Task Ownership" -     == "Overlapping tasks suggest team members don't know who is responsible for what, leading to duplicated effort."- == "Centralized Kanban Board: Use a visual tool {like Jira} where every task has exactly one owner and a clear status."
+== "Feedback Avoidance" - == "Politeness is causing a buildup of technical errors and resentment, which will eventually explode." - == "Scheduled Post-Mortems: Normalize feedback by making it a standard part of the Friday schedule, removing the "personal" element."
+
+Feedback Exercise
+Framework: Observation -> Impact -> Suggestion
+Observation: "I noticed that a new gameplay mechanic was added to the build this morning without a prior heads-up or documentation in the sprint log."
+
+Impact: "Because the development team wasn't aware, it conflicted with the existing physics code, resulting in a critical bug that halted our testing for two hours."
+
+Suggestion: "In the future, could you post a quick summary in the dev-sync channel before pushing new logic? This allows us to flag potential conflicts before they break the build."
+
+
+Stress & Collaboration Solution
+Main Stress Factor: Cognitive Overload & Role Ambiguity
+Practical Strategies to Reduce Stress
+To combat the feeling of being overwhelmed, the developer commits to finishing 1 Big Task, 3 Medium Tasks, and 5 Small Tasks per day. Anything else is bonus which provides a psychological sense of completion.
+To lower the pressure of perfection the developer should use simple primitives (cubes/spheres) to test logic first. This separates making it work from making it pretty, reducing the immediate mental load
+
+Team Leader Action
+The leader should mandate that no feature can move from the Design phase to the Dev phase unless it meets three criteria:
+-It has been discussed in a 10-minute handoff meeting.
+-The technical dependencies have been identified.
+-The developer has confirmed they have the bandwidth to take it on.
